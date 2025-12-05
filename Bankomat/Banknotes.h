@@ -5,9 +5,9 @@
 class Banknotes
 {
 public:	
-	int dengi5000;int dengi2000;int po_tysyache;int patsot;int dvesti;int sto;
+	int cash5000, cash2000, cash1000, cash500, cash200, cash100;
 
-	Banknotes(int a, int b, int c, int d, int e, int f);
+	Banknotes(int cash5000, int cash2000, int cash1000, int cash500, int cash200, int cash100);
 
 	void Load(int a, int b, int c, int d, int e, int f);
 };
